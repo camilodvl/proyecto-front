@@ -44,7 +44,7 @@ function CreatePatient() {
         onChange={handleInputChange}
       />
 
-      <label htmlFor="dateOfBirth">Apellido:</label>
+      <label htmlFor="dateOfBirth">Fecha de naciemiento:</label>
       <input
         type="date"
         name="dateOfBirth"
