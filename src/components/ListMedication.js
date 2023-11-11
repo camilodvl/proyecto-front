@@ -19,12 +19,13 @@ function MedicationList() {
   };
 
   return (
-    <div>
+    <div className='container'>
     <table className='table'>
       <thead>
         <tr>
           <th>Nombre</th>
           <th>Dosis</th>
+          <th></th>
           
         </tr>
       </thead>
@@ -34,7 +35,7 @@ function MedicationList() {
             <td>{medication.name}</td>
             <td>{medication.dosage}</td>
             <td>
-              <button onClick={() => deleteMedication(medication.id)}>Eliminar</button>
+              <button className='btn btn-danger' onClick={() => deleteMedication(medication.id)}>Eliminar</button>
             </td>
           </tr>
         ))}

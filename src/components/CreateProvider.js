@@ -20,6 +20,7 @@ const HealthcareProviderForm = () => {
   };
 
   return (
+    <div className='container'>
     <form onSubmit={handleSubmit}>
       <div>
         <label htmlFor="name">Nombre:</label>
@@ -31,6 +32,7 @@ const HealthcareProviderForm = () => {
       </div>
       <button type="submit">Crear Profesional</button>
     </form>
+    </div>
   );
 };
 

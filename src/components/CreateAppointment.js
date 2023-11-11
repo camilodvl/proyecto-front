@@ -35,7 +35,7 @@ const AppointmentForm = () => {
         <label htmlFor="providerId">Id del profesional:</label>
         <input type="text" id="providerId" value={providerId} onChange={(event) => setProviderId(event.target.value)} />
       </div>
-      <button className='btn btn-primary' type="submit">Crear cita</button>
+      <button type="submit">Crear cita</button>
     </form>
 
     </div>

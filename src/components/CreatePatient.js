@@ -27,19 +27,24 @@ function CreatePatient() {
   };
 
   return (
+    <div className='container'>
     <form onSubmit={handleSubmit}>
+    <label htmlFor="firstName">Nombre:</label>
       <input
         type="text"
         name="firstName"
         value={patient.firstName}
         onChange={handleInputChange}
       />
+      <label htmlFor="lastName">Apellido:</label>
       <input
         type="text"
         name="lastName"
         value={patient.lastName}
         onChange={handleInputChange}
       />
+
+      <label htmlFor="dateOfBirth">Apellido:</label>
       <input
         type="date"
         name="dateOfBirth"
@@ -48,6 +53,7 @@ function CreatePatient() {
       />
       <button type="submit">Crear paciente</button>
     </form>
+    </div>
   );
 }
 

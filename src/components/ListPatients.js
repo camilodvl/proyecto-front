@@ -26,6 +26,7 @@ const PatientList = () => {
             <th scope="col">Nombre</th>
             <th scope="col">Apellido</th>
             <th scope="col">Fecha de nacimiento</th>
+            <th></th>
           </tr>
         </thead>
         <tbody>

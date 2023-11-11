@@ -29,6 +29,7 @@ function ProviderList() {
             <th scope="col">Id</th>
             <th scope="col">Nombre</th>
             <th scope="col">Especialidad</th>
+            <th></th>
           </tr>
         </thead>
         <tbody>
@@ -44,7 +45,7 @@ function ProviderList() {
                 {provider.specialty}
                 </td>
                 <td>
-                <button onClick={() => deleteProvider(provider.id)}>Eliminar</button>
+                <button className='btn btn-danger' onClick={() => deleteProvider(provider.id)}>Eliminar</button>
                   </td>
               </tr>
             ))}

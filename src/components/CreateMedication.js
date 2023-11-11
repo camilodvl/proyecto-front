@@ -28,6 +28,7 @@ function CreateMedication() {
   };
 
   return (
+    <div className='container'>
     <form onSubmit={handleSubmit}>
       <label>
         Nombre:
@@ -39,6 +40,7 @@ function CreateMedication() {
       </label>
       <button type="submit">Crear medicamento</button>
     </form>
+    </div>
   );
 }
 
