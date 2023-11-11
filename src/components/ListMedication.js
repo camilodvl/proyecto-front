@@ -23,9 +23,9 @@ function MedicationList() {
     <table className='table'>
       <thead>
         <tr>
-          <th>Name</th>
-          <th>Dosage</th>
-          <th>Actions</th>
+          <th>Nombre</th>
+          <th>Dosis</th>
+          
         </tr>
       </thead>
       <tbody>

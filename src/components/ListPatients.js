@@ -23,9 +23,9 @@ const PatientList = () => {
         <thead>
           <tr>
             <th scope="col">Id</th>
-            <th scope="col">Name</th>
-            <th scope="col">Last Name</th>
-            <th scope="col">Date of Birth</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col">Fecha de nacimiento</th>
           </tr>
         </thead>
         <tbody>

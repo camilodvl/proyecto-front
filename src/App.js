@@ -12,8 +12,7 @@ import CreateMedication from "./components/CreateMedication";
 
 
 function App() {
-  /*<Route path='/people' element={<InsertPeople/>}/>
-  <Route path ='/get/:id' element={<UpdatePeople/>}/>*/
+
   return (
     <>
     <BrowserRouter>

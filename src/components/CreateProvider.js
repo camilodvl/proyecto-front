@@ -22,14 +22,14 @@ const HealthcareProviderForm = () => {
   return (
     <form onSubmit={handleSubmit}>
       <div>
-        <label htmlFor="name">Name:</label>
+        <label htmlFor="name">Nombre:</label>
         <input type="text" id="name" value={name} onChange={(event) => setName(event.target.value)} />
       </div>
       <div>
-        <label htmlFor="specialty">Specialty:</label>
+        <label htmlFor="specialty">Especialidad:</label>
         <input type="text" id="specialty" value={specialty} onChange={(event) => setSpecialty(event.target.value)} />
       </div>
-      <button type="submit">Create Provider</button>
+      <button type="submit">Crear Profesional</button>
     </form>
   );
 };
