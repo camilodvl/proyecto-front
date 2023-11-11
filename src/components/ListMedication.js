@@ -20,6 +20,7 @@ function MedicationList() {
 
   return (
     <div className='container'>
+      <h2>Lista de Medicamentos</h2>
     <table className='table'>
       <thead>
         <tr>
